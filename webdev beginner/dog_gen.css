@@ -1,0 +1,61 @@
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: "JetBrains Mono";
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    background-position: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dog-input {
+    background-color: rgb(142, 202, 142);
+    width: 50%;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    outline: none;
+    text-align: center;
+    padding: 8px;
+    border: 3px solid rgb(92, 133, 92);
+    border-radius: 30px;
+}
+
+::placeholder {
+    font-family: "JetBrains Mono";
+    color:rgb(63, 90, 63);
+    font-style: italic;
+}
+
+.button-container {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.random {
+    background-color: rgb(142, 202, 142);
+}
+
+.specific {
+    background-color: rgb(142, 202, 142);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>dog generator</title>
+        <link type="text/css" href="index.css" rel="stylesheet" />
+    </head>
+    <body style="background-color: rgb(176, 245, 176);">
+        <div class="body-content">
+            <div class="title">dog generator, v1.0</div>
+            <p class="subtitle">
+                this site generates dogs. <br /> 
+                click whichever button below <br /> 
+                that matches your desires
+            </p>
+
+            <div class="image" id="dog-image"></div>
+            <div class="image" id="dog-image"></div>
+            <div class="image" id="dog-image"></div>
+
+            <input class="dog-input" id="dog-name" placeholder="enter breed here"/>
+            <div class="button-container">
+                <div class="random" onclick="getRandomImage()">generate random dog!</div>
+                <div class="specific" onclick="getSpecificImage()">generate specific breed!</div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="index.js"></script>

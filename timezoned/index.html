@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timezoned!</title>
+        <link type="text/css" href="style.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
+    </head>
+    <body class="bg-color">
+        <div class="heading">
+            <h1 class="title">Timezoned!</h1>
+        </div>
+        <div class="heading">
+            <p class="subtitle">find out the current time throughout the world</p> 
+        </div>
+        <br>
+        <div>
+            <button class="curr-time-button bg-color-darkened" id="currTime" onClick="getHereTime()">Your current time is... <span class="italic">(click me!)</span></button>
+        </div>
+        <br>
+        <br>
+        <div class="heading">
+            <p class="comment">click the buttons below to <br> check on each timezone!</p>
+        </div>
+        <img class="resize" src="World_Time_Zones_Map.png">
+        <div>
+            <button class="est buttons bg-color-darkened" id="EST" value=-5 onClick="getTime(this.id)">EST</button>
+        </div> 
+        <div>
+            <button class="pst buttons bg-color-darkened" id="PST" value=-8 onClick="getTime(this.id)">PST</button>
+        </div>
+        <div>
+            <button class="gmt buttons bg-color-darkened" id="GMT" value=0 onClick="getTime(this.id)">GMT</button>
+        </div>
+        <div>
+            <button class="cst buttons bg-color-darkened" id="CST" value=-6 onClick="getTime(this.id)">CST</button>
+        </div>
+        <div>
+            <button class="aest buttons bg-color-darkened" id="AEST" value=10 onClick="getTime(this.id)">AEST</button>
+        </div>
+    </body>
+</html>

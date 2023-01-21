@@ -1,0 +1,22 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.css-selector {
+    background: linear-gradient(180deg, #ff6464, #ffc769, #eeff69, #7eff69, #69eaff, #6979ff, #d669ff, #ff69c4);
+    background-size: 1600% 1600%;
+
+    animation: hello 15s ease infinite;
+}
+
+@keyframes hello {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
